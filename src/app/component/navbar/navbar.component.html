@@ -1,0 +1,73 @@
+<header id="header">
+    <!--header-->
+    <div class="header-middle">
+        <!--header-middle-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 clearfix">
+                    <div class="logo pull-left">
+                        <a routerLink="/index"><img style="width: 100px;" src="./assets/imgs/logo.jpg" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-md-8 clearfix">
+                    <div class="shop-menu clearfix pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a routerLink="/login"><i class="fa fa-user"></i>Tài Khoản</a></li>
+                            <li><a routerLink="/wishlist"><i class="fa fa-star"></i>Danh Sách Mong Muốn</a></li>
+                            <li><a routerLink="/checkout"><i class="fa fa-crosshairs"></i>Thanh Toán</a></li>
+                            <li><a routerLink="/cart"><i class="fa fa-shopping-cart"></i>Giỏ Hàng</a></li>
+                            <li><a routerLink="/login"><i class="fa fa-lock"></i>Đăng Nhập / Đăng Ký</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/header-middle-->
+
+    <div class="header-bottom">
+        <!--header-bottom-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="mainmenu pull-left">
+                        <ul class="nav navbar-nav collapse navbar-collapse">
+                            <li><a routerLink="/index" class="active">Trang Chủ</a></li>
+                            <li><a routerLink="/shop">Sản Phẩm</a></li>
+                            <li><a routerLink="/blog">Bài Review Xe</a></li>
+
+                            <li class="dropdown"> <button style="color: #696763;font-family: 'Roboto', sans-serif;font-size: 17px;font-weight: 300; background-color: white; border: none">Dịch Vụ</button><i class="fa fa-angle-down"></i>
+                                <ul role="menu" class="sub-menu">
+                                    <li><a routerLink="/s-tragop">Trả Góp</a></li>
+                                    <li><a routerLink="/s-vanchuyen">Vận Chuyển</a></li>
+                                    <li><a routerLink="/s-thibanglai">Thi Bằng Lái</a></li>
+                                    <li><a routerLink="/s-dkbienso">Đăng Ký Biển Số</a></li>
+                                </ul>
+                            </li>
+                            <li><a routerLink="/contact-us">Liên Hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="search_box pull-right">
+                        <input type="text" placeholder="Tìm Kiếm" />
+                        <button style="margin-left: -25px; border: none;">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/header-bottom-->
+</header>
+<!--/header-->

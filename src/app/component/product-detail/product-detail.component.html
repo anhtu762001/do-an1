@@ -1,0 +1,225 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <app-sidebar></app-sidebar>
+
+            <div class="col-sm-9 padding-right">
+                <div class="product-details">
+                    <!--product-details-->
+                    <div class="col-sm-5">
+                        <div class="view-product">
+                            <img src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt="" />
+                            <h3>ZOOM</h3>
+                        </div>
+                        <div id="similar-product" class="carousel slide" data-ride="carousel">
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                </div>
+                                <div class="item">
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                    <a href=""><img style="width: 8rem"
+                                            src="../../../assets/imgs/b_xecontay_honda_winnerX.png" alt=""></a>
+                                </div>
+
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left item-control" href="#similar-product" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a class="right item-control" href="#similar-product" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="product-information">
+                            <!--/product-information-->
+                            <img src="../../../assets/imgs/new.jpg" class="newarrival" alt="" />
+                            <h2>{{xe[2].name}}</h2>
+                            <p>Web ID: 1089772</p>
+                            <img src="../../../assets/imgs/rating.png" alt="" />
+                            <span>
+                                <span>{{xe[2].price}}</span>
+                                <label>Số lượng</label>
+                                <input type="text" value="3" />
+                                <button routerLink="/cart" type="button" class="btn btn-fefault cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    Thêm vào giỏ hàng
+                                </button>
+                            </span>
+                            <p><b>Tình trạng:</b> Còn hàng</p>
+                            <p><b>Hãng sản xuất:</b> Honda</p>
+                            <a href=""><img src="images/product-details/share.png" class="share img-responsive"
+                                    alt="" /></a>
+                        </div>
+                        <!--/product-information-->
+                    </div>
+                </div>
+                <!--/product-details-->
+
+                <div class="category-tab shop-details-tab">
+                    <!--category-tab-->
+                    <div class="col-sm-12">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#ttct" data-toggle="tab">Thông tin chi tiết</a></li>
+                            <li><a href="#ttkt" data-toggle="tab">Thông số kỹ thuật</a></li>
+                            <li class="active"><a href="#spcl" data-toggle="tab">Sản Phẩm Cùng Loại</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade" id="ttct">
+                            <div class="col-sm-12">
+                                <p>Cuộc đời là một cuộc phiêu lưu tràn đầy những điều bất ngờ và mỗi người đều có một
+                                    vạch đích của riêng mình. Hãy tự tin tạo những cú kích để vút xa và tạo dấu ấn riêng
+                                    biệt cùng Honda WINNER X mới. Đánh dấu sự chuyển mình mạnh mẽ hướng tới hình ảnh một
+                                    mẫu siêu xe thể thao cỡ nhỏ hàng đầu tại Việt Nam cùng những trang bị hiện đại và
+                                    tối tân, WINNER X mới sẵn sàng cùng các tay lái bứt tốc trên mọi hành trình khám
+                                    phá.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="ttkt">
+                            <div class="col-sm-12">
+                                <table>
+                                    <tr>
+                                        <td>Khối lượng bản thân</td>
+                                        <td><b>122kg</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dài x Rộng x Cao</td>
+                                        <td><b>2.019 x 727 x 1.104 mm</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Khoảng cách trục bánh xe</td>
+                                        <td><b>1.278 mm</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Độ cao yên</td>
+                                        <td><b>795 mm</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Khoảng sáng gầm xe</td>
+                                        <td><b>151 mm</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dung tích bình xăng</td>
+                                        <td><b>4,5 lít</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kích cỡ lớp trước/ sau</td>
+                                        <td><b>"Trước: 90/80-17M/C 46P
+                                                Sau: 120/70-17M/C 58P"</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phuộc trước</td>
+                                        <td><b>Ống lồng, giảm chấn thủy lực</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phuộc sau</td>
+                                        <td><b>Lò xo trụ đơn</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Loại động cơ</td>
+                                        <td><b>PGM-FI, 4 kỳ, DOHC, xy-lanh đơn, côn 6 số, làm mát bằng dung dịch</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Công suất tối đa</td>
+                                        <td><b>11,5kW/9.000 vòng/phút</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dung tích nhớt máy</td>
+                                        <td><b>"1,1 lít khi thay nhớt
+                                                1,3 lít khi rã máy"</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mức tiêu thụ nhiên liệu</td>
+                                        <td><b>1,99l/100km</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Loại truyền động</td>
+                                        <td><b>Cơ khí</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hệ thống khởi động</td>
+                                        <td><b>Điện</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dung tích xy-lanh</td>
+                                        <td><b>149,1 cm3</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Đường kính x Hành trình pít tông</td>
+                                        <td><b>57,3 mm x 57,8 mm</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tỷ số nén</td>
+                                        <td><b>
+                                                11,3:1</b></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade active in" id="spcl">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../../assets/imgs/{{xe[4].imgs}}" alt="" />
+                                            <h2>{{xe[4].price}}</h2>
+                                            <p>{{xe[4].name}}</p>
+                                            <button routerLink="/cart" type="button"
+                                                class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="../../../assets/imgs/{{xe[8].imgs}}" alt="" />
+                                            <h2>{{xe[8].price}}</h2>
+                                            <p>{{xe[8].name}}</p>
+                                            <button routerLink="/cart" type="button"
+                                                class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/category-tab-->
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
